@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Documentación Vue</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+</head>
+<body>
+<div id="docute"></div>
+<script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+<script>
+    new Docute({
+        target: '#docute',
+        sidebar: [{
+            "title": "Auxiliares",
+            "links": [{
+                "title": "ProfileImageSelector",
+                "link": "/components/ProfileImageSelector"
+            }, {"title": "ProfileInfoSelector", "link": "/components/ProfileInfoSelector"}, {
+                "title": "PublicProfile",
+                "link": "/components/PublicProfile"
+            }, {"title": "YourLanguagesSelector", "link": "/components/YourLanguagesSelector"}]
+        }, {
+            "title": "Búsqueda",
+            "links": [{"title": "SearchHome", "link": "/components/SearchHome"}, {
+                "title": "UserProfile",
+                "link": "/components/UserProfile"
+            }, {"title": "UserProfile", "link": "/components/UserProfile"}]
+        }, {
+            "title": "Chats",
+            "links": [{"title": "ChatHome", "link": "/components/ChatHome"}]
+        }, {
+            "title": "Configuración",
+            "links": [{
+                "title": "SettingsAccountEditEmail",
+                "link": "/components/SettingsAccountEditEmail"
+            }, {
+                "title": "SettingsAccountEditNameAndLastName",
+                "link": "/components/SettingsAccountEditNameAndLastName"
+            }, {
+                "title": "SettingsAccountEditPassword",
+                "link": "/components/SettingsAccountEditPassword"
+            }, {
+                "title": "SettingsAccountPasswordVerification",
+                "link": "/components/SettingsAccountPasswordVerification"
+            }, {"title": "SettingsHome", "link": "/components/SettingsHome"}, {
+                "title": "SettingsLanguage",
+                "link": "/components/SettingsLanguage"
+            }, {"title": "SettingsPermissions", "link": "/components/SettingsPermissions"}]
+        }, {
+            "title": "Cuenta",
+            "links": [{
+                "title": "EmailVerification",
+                "link": "/components/EmailVerification"
+            }, {"title": "FillYourLanguages", "link": "/components/FillYourLanguages"}, {
+                "title": "FillYourProfileInfo",
+                "link": "/components/FillYourProfileInfo"
+            }, {"title": "Login", "link": "/components/Login"}, {
+                "title": "SendChangePasswordEmail",
+                "link": "/components/SendChangePasswordEmail"
+            }, {"title": "SetYourProfileImage", "link": "/components/SetYourProfileImage"}, {
+                "title": "SignUp",
+                "link": "/components/SignUp"
+            }]
+        }, {
+            "title": "Eventos",
+            "links": [{"title": "EventCreate", "link": "/components/EventCreate"}, {
+                "title": "EventDescription",
+                "link": "/components/EventDescription"
+            }, {"title": "EventEdit", "link": "/components/EventEdit"}, {
+                "title": "EventsHome",
+                "link": "/components/EventsHome"
+            }]
+        }, {
+            "title": "General",
+            "links": [{"title": "App", "link": "/components/App"}, {
+                "title": "Dashboard",
+                "link": "/components/Dashboard"
+            }, {"title": "Home", "link": "/components/Home"}, {
+                "title": "RankingHome",
+                "link": "/components/RankingHome"
+            }]
+        }, {
+            "title": "Perfil",
+            "links": [{"title": "ProfileEdit", "link": "/components/ProfileEdit"}, {
+                "title": "ProfileHome",
+                "link": "/components/ProfileHome"
+            }]
+        }, {
+            "title": "Vuex",
+            "links": [{"title": "chats", "link": "/chats.js"},
+                {"title": "database", "link": "/database.js"},
+                {"title": "events", "link": "/events.js"},
+                {"title": "permissions", "link": "/permissions.js"},
+                {"title": "ranking", "link": "/ranking.js"},
+                {"title": "user", "link": "/user.js"},
+                {"title": "users", "link": "/users.js"},
+            ]
+        }]
+    })
+</script>
+</body>
+</html>
